@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
-import { useTodo } from "../contexts/TodoContext.js";
+import { useTodo } from "../contexts/TodoContext";
 import { useSelector, useDispatch } from "react-redux";
-import { fetchWeather, clearWeatherError } from "../slices/weatherSlice.jsx";
+import { fetchWeather, clearWeatherError } from "../slices/weatherSlice";
 
 function TodoItem({ todo }) {
   const [isEditable, setIsEditable] = useState(false);
