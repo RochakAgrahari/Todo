@@ -1,11 +1,11 @@
 import { useState, useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { login, logout } from "./slices/authSlice";
+import { login, logout } from "./slices/authSlice.js";
 import { TodoProvider } from "./contexts";
 import "./App.css";
-import TodoForm from "./components/TodoForm";
-import TodoItem from "./components/TodoItem";
-import { clearWeatherError } from "./slices/weatherSlice";
+import TodoForm from "./components/TodoForm.jsx";
+import TodoItem from "./components/TodoItem.jsx";
+import { clearWeatherError } from "./slices/weatherSlice.js";
 
 function App() {
     const [todos, setTodos] = useState([]);
