@@ -1,2 +1,2 @@
-import {TodoContext, TodoProvider, useTodo} from "./TodoContext.js"
+import {TodoContext, TodoProvider, useTodo} from "./TodoContext"
 export {TodoContext,TodoProvider,useTodo}
