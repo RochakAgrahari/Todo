@@ -1,4 +1,4 @@
-import TodoForm from "./TodoForm.jsx";
-import TodoItem from "./TodoItem.jsx";
+import TodoForm from "./TodoForm";
+import TodoItem from "./TodoItem";
 
 export {TodoForm, TodoItem}
